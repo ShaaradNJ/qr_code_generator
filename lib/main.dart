@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_code_generator/GenerateQR.dart';
 import 'package:qr_code_generator/HomeScreen.dart';
 
 void main(){
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Homescreen(),
+      home: GenerateQR(),
     );
   }
 }
